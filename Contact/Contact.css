@@ -1,0 +1,292 @@
+/* ================== Start Contact us ================== */
+.hero-banner {
+    width: 100%;
+    height: 60vh; 
+    position: relative;
+    overflow: hidden;
+}
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.60);
+    z-index: 1;
+}
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    max-width: 700px;
+}
+.slide-content h1,
+.slide-content p,
+.slide-content .btn-group {
+    opacity: 1; 
+    transform: translateY(0); 
+    animation: fadeInUp 0.7s ease forwards; 
+}
+.delay-0 { animation-delay: 0s; }
+.delay-300 { animation-delay: .3s; }
+.delay-500 { animation-delay: .5s; }
+.btn-slide:hover {
+    background: #0d6efd;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(13,110,253,0.5);
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.section-2-bg {
+    background-color: #404041;
+    color: #fff;
+}
+/* ================== END Contact us ================== */
+
+
+/* ================== Start CONTACT SECTION ================== */
+.custom-contact-bg {
+    background-color: #F4F4F5;
+}
+.bg-light-card {
+    background-color: #ffffff !important;
+    border: 1px solid #eee;
+    transition: 0.35s ease;
+    cursor: pointer;
+}
+.bg-light-card:hover {
+    transform: translateY(-8px);
+    background-color: #DCBC0C !important;
+    border-color: #DCBC0C;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+.bg-light-card:hover h6,
+.bg-light-card:hover p {
+    color: #000000 !important;
+}
+.bg-yellow-soft {
+    background-color: #DCBC0C;
+    padding: 8px;
+    border-radius: 8px;
+}
+.section-contact .contact-icon-wrapper {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: 0.35s ease;
+}
+.bg-light-card:hover .contact-icon-wrapper {
+    transform: scale(1.15);
+}.section-contact .contact-card {
+    min-height: 150px;
+}
+.section-contact h6 {
+    font-weight: 600 !important;
+}
+.map-container {
+    border: 1px solid #ddd;
+}
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none !important;
+}
+/* ================== END CONTACT SECTION ================== */
+
+/* ================== Start CONTACT FORM SECTION ================== */
+
+.catalog-overlay {
+    background: rgba(0, 0, 0, 0.45);
+}
+.download-btn {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+.download-btn:hover {
+    background-color: #DCBC0C;
+    transform: translateY(-2px);
+    color: #fff;
+}
+.section-contact-form .text-yellow {
+    color: #DCBC0C;
+}
+.canctact-form-wrapper {
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    animation: fadeUp 1s ease forwards;
+    opacity: 0;
+}
+.contact-form {
+    background: transparent !important;
+    color: #212529;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+.contact-form .form-control {
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    padding: 10px 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: 0.3s ease;
+}
+.contact-form .form-control:focus {
+    border-color: #DCBC0C;
+    box-shadow: 0 0 8px rgba(220, 188, 12, 0.4);
+}
+.section-contact-form .bg-dark-card {
+    background-color: #343a40 !important;
+}
+.btn-slide-button-yellow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #DCBC0C;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    margin: 5px 0;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(172, 186, 40, 0.4);
+}
+.btn-slide-button-yellow:hover {
+    background: #c4a60c;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(172, 186, 40, 0.6);
+}
+.btn-slide-button-yellow img {
+    transition: transform 0.3s ease;
+}
+.btn-slide-button-yellow:hover img {
+    transform: translateX(6px);
+}
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ================== END CONTACT FORM SECTION ================== */
+
+
+/* ================== FAQ SECTION ================== */
+.custom-value {
+    color: #438BCF;
+}
+.btn-slide-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+    background: #438BCF;
+    box-shadow: 0 4px 10px rgba(13,110,253,0.5);
+}
+.btn-slide-button:hover {
+    background: #2a6bbf;
+    box-shadow: 0 6px 15px rgba(13,110,253,0.7);
+}
+.section-faq .accordion-button:after {
+    display: none !important; 
+}
+.section-faq .accordion-icon-box {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px; 
+    background-color: transparent; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease;
+}
+.section-faq .accordion-icon {
+    color: #000; 
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.section-faq .accordion-button:not(.collapsed) .accordion-icon-box {
+    background-color: #438BCF; 
+}
+.section-faq .accordion-button:not(.collapsed) .accordion-icon {
+    transform: rotate(45deg); 
+    color: #fff; 
+}
+.section-faq .accordion-button {
+    padding: 1rem 0 !important;
+    font-size: 1.1rem;
+    color: #212529 !important; 
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.section-faq .accordion-item {
+    border-bottom: 1px solid #eee; 
+}
+.accordion-item.faq-item {
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #eee !important;
+}
+
+
+
+
+
+
+button.accordion-button.fw-semibold {
+    justify-content: space-between !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
